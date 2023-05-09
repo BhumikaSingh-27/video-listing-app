@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://media.gettyimages.com/id/1355396157/video/animation-of-confetti-snowflakes-flowing-on-the-dark-background-3d-rendering-video-merry.jpg?s=640x640&k=20&c=A8Y3IzIXS8A3hxK5hod4R7ME8y7NOiyRz5XTnQihBnE=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  padding: 1rem;
+  max-width: 100%;
+  margin-top: 2rem;
+}
+
+.main {
+  display: flex;
+  /* padding: 1rem; */
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed white;
+  align-items: center;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+
+
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
